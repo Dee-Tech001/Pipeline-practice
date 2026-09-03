@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # jenkins-practice-app
 
 A small Express API used to practice a Jenkins CI/CD pipeline: install → test → build Docker image → push to Docker Hub.
@@ -41,3 +42,6 @@ git branch -M main
 git remote add origin https://github.com/<your-username>/jenkins-practice-app.git
 git push -u origin main
 ```
+=======
+# Pipeline-practice
+>>>>>>> 64c1a0fc5b9b2bc0bf02d664a8fe2db09ec12704
