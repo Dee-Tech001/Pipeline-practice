@@ -47,9 +47,7 @@ pipeline {
 
     post {
         always {
-            script {
-                sh 'docker logout || true'
-            }
+            sh 'docker logout || true'
         }
         success {
             echo "Pipeline succeeded: ${IMAGE_NAME}:${IMAGE_TAG} pushed to Docker Hub."
