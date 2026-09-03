@@ -1,0 +1,17 @@
+{
+  "name": "jenkins-practice-app",
+  "version": "1.0.0",
+  "description": "Small Express API for practicing a Jenkins CI/CD pipeline",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest --detectOpenHandles"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  }
+}
