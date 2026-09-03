@@ -1,8 +1,12 @@
 pipeline {
     agent any
 
+    tools {
+        nodejs 'Node20'
+    }
+
     environment {
-        DOCKERHUB_CREDENTIALS = credentials('dockerhub-creds')
+        DOCKERHUB_CREDENTIALS = credentials('docker-hub-credentials')
         IMAGE_NAME = 'jhayzee/jenkins-practice-app'
         IMAGE_TAG = "${env.BUILD_NUMBER}"
     }
